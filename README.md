@@ -1,8 +1,6 @@
 # aurelia-cordova-test
 
 prerequsites:
-* cordova v6.0
-* jspm v0.16.19 (newer versions of jspm are broken because of changes in systemjs)
 * android sdk with build tools v23 (these must be on path, see setting up for android sdk)
 * android phone with developer mode on and USB debugging enabled
 * android phone connected to PC via USB
@@ -10,7 +8,7 @@ prerequsites:
 **steps to run on android**
 
 1. clone this repository
-2. npm install -g cordova gulp jspm@0.16.19
+2. npm install -g cordova gulp jspm@0.16.15
 3. cd [repo-location]/src
 4. npm install
 5. jspm install
