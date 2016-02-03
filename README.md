@@ -1,11 +1,11 @@
 # aurelia-cordova-test
 
 prerequsites:
--cordova v6.0
--jspm v0.16.19 (newer versions of jspm are broken because of changes in systemjs)
--android sdk with build tools v23 (these must be on path, see setting up for android sdk)
--android phone with developer mode on and USB debugging enabled
--android phone connected to PC via USB
+* cordova v6.0
+* jspm v0.16.19 (newer versions of jspm are broken because of changes in systemjs)
+* android sdk with build tools v23 (these must be on path, see setting up for android sdk)
+* android phone with developer mode on and USB debugging enabled
+* android phone connected to PC via USB
 
 **steps to run on android**
 
