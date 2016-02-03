@@ -1,0 +1,34 @@
+{
+  "name": "aurelia-cordova-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weagle08/aurelia-cordova-test.git"
+  },
+  "author": "weagle08",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weagle08/aurelia-cordova-test/issues"
+  },
+  "homepage": "https://github.com/weagle08/aurelia-cordova-test#readme",
+  "devDependencies": {
+    "jspm": "0.16.19"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "client"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.1.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.1.1",
+      "font-awesome": "npm:font-awesome@^4.5.0",
+      "jquery": "npm:jquery@^2.2.0"
+    },
+    "devDependencies": {}
+  }
+}
